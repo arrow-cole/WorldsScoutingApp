@@ -1,0 +1,72 @@
+body{
+    background-color: #435F44;
+}
+
+#footer{
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+.team-btn-group{
+    width: 100rem;
+}
+
+.add-team-group{
+    width: 15rem;
+}
+
+
+.teamBtn{
+    background-color: #D9D9D9;
+    width: 88%;
+}
+
+.editBtn{
+    background-color: #B1B1B1;
+    width: 5%;
+}
+/* TODO HOVER BACKGROUND COLOR */
+.teamBtn:hover{
+    background-color: #d0cfcf;
+}
+
+.editBtn:hover{
+    background-color: #838282;
+}
+
+.number{
+    background-color: #B1B1B1;
+}
+
+.number:hover{
+    background-color: #838282;
+}
+
+.addTeam{
+    background-color: #D9D9D9;
+    width: 50%;
+
+}
+
+.addTeamIcon{
+    background-color: #B1B1B1;
+    width: 12%;
+}
+
+.addTeam:hover{
+    background-color: #d0cfcf;
+}
+
+.addTeamIcon:hover{
+    background-color: #838282;
+}
+
+@media (max-width: 570px) {
+    .addTeamIcon {
+        width: 20%;
+    }
+    .editBtn{
+        width: 22%;
+    }
+}
+
